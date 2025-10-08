@@ -61,7 +61,7 @@ if not _tv_nms_available():
 
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument("--ip", default="192.168.222.113", help="UDP destination IP (Android)")
+    p.add_argument("--ip", default="192.168.222.101", help="UDP destination IP (Android)")
     p.add_argument("--port", type=int, default=5005, help="UDP destination port")
     p.add_argument("--uart", default="/dev/ttyACM0", help="UART device to Pico")
     p.add_argument("--baud", type=int, default=115200, help="UART baudrate")
